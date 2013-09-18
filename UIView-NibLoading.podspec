@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "UIView-NibLoading"
+  s.name         = "UIView+NibLoading"
   s.version      = "0.0.1"
   s.summary      = "UIView category and subclass for loading content subviews from nib files."
 

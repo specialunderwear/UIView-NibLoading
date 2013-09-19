@@ -51,8 +51,10 @@
         containerView.bounds = self.bounds;
     
     // reparent the subviews from the nib file
-    for (UIView * view in containerView.subviews)
+    for (UIView * view in containerView.subviews) {
+        [view removeFromSuperview];
         [self addSubview:view];
+    }
 }
 
 - (void) loadContentsFromNib

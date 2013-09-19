@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UIView+NibLoading"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "UIView category and subclass for loading content subviews from nib files."
 
   s.description  = <<-DESC
@@ -72,7 +72,7 @@ Pod::Spec.new do |s|
 
   s.source       = {
       :git => "https://github.com/specialunderwear/UIView-NibLoading.git",
-      :commit => "d6f71926d4055bca22e3b47f55b73fb4fed78765"
+      :commit => "2e218705ab53743894e979685a97b41bf02fa891"
   }
 
 
